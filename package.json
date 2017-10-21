@@ -1,0 +1,39 @@
+{
+  "name": "botkit-middleware-watson",
+  "version": "1.5.0",
+  "description": "A middleware for using Watson Conversation in a Botkit-powered bot.",
+  "main": "lib/middleware/index.js",
+  "types": "lib/middleware/index.d.ts",
+  "scripts": {
+    "start": "node lib/middleware/index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson-developer-cloud/botkit-middleware.git"
+  },
+  "keywords": [
+    "bot",
+    "botkit",
+    "chatbot",
+    "conversation",
+    "ibm",
+    "watson"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "botkit": "^0.2.2",
+    "clone": "^2.1.1",
+    "mocha": "^3.4.2",
+    "nock": "^8.2.1",
+    "sinon": "^2.3.5"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.8",
+    "bluebird": "^3.5.0",
+    "debug": "^2.6.8",
+    "deepmerge": "^1.5.1",
+    "watson-developer-cloud": "^2.32.1"
+  }
+}
